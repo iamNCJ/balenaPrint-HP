@@ -1,4 +1,4 @@
-name: balenaPrint
+name: balenaPrint-HP
 description: >-
   Add wireless and AirPrint capability to legacy 
   USB-enabled printers, powered by a Raspberry Pi.
@@ -15,7 +15,7 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/willswire/balenaPrint'
+      url: 'https://github.com/iamNCJ/balenaPrint-HP'
   logo:
     type: blob.asset
     data:
