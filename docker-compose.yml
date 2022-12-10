@@ -1,8 +1,8 @@
 version: '2.1'
 volumes:
-  cups:
+  cups_hp:
 services:
-  cups:
+  cups_hp:
     build: ./cups
     ports:
       - "80"
@@ -10,7 +10,7 @@ services:
     restart: always
     network_mode: host
     volumes:
-      - 'cups:/etc/cups'
+      - 'cups_hp:/etc/cups'
     labels:
       io.balena.features.kernel-modules: '1'
       io.balena.features.firmware: '1'
