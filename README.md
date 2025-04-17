@@ -1,3 +1,10 @@
+# BalenaPrint-HP
+
+Run `hp-setup` in the cups container terminal, it will automatically download the right driver for you!
+
+Below are old guidances:
+
+---
 
 <img src="logo.png" width="100"/>
 
